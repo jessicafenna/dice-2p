@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <audio id = "sound" src = "Dice Roll Sound Effect _ Rolling dice sound (128 kbps).mp3"></audio>
+    <div class = "container">
+        <!-- <h1>User 1</h1>    -->
+        
+        <div class = "dicearea">
+           
+            <p>Player 1</p>
+            <div class = "box">
+                
+                <button id = "roll1">Roll</button>
+                </div>           
+            <div class = "box">
+               
+                <button id ="newPlayer1">Switch player</button>
+                </div>
+            <img id = "dice1" src = "images/1.png">
+            <div class = "box">
+            <p id = "score"></p>
+            </div>
+            <div class= "box">
+            <p id = "winLose"></p>
+            </div>
+        </div>
+
+        <div class = "aligncenter box"><button id = "newgame">New game</button></div>
+
+        <div class = "dice-area">
+            <p>Player 2</p>
+            <button id = "roll2">Roll</button>
+            <button id ="newPlayer2">Switch player</button>
+            <img id = "dice2" src = "images/1.png">
+            <div class = "box">
+            <p id = "score2"></p>
+            </div>
+            <div class= "box">
+            <p id = "winLose2"></p>
+            
+            </div>
+        </div>
+    </div>
+   
+
+    <script src = "app.js"></script>
+</body>
+</html>
