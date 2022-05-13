@@ -106,3 +106,5 @@ roll2.addEventListener("click", () => {
             } 
     }
 })
+
+// still some issues need to be worked out - get the player 2 switch player button to not display at first, also roll button is not centered when reappears
